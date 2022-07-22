@@ -1,4 +1,4 @@
-<Device Model="DMPS-300-C" Name="DMPS-300-C.">
+<Device Model="DMPS3-300-C" Name="DMPS3-300-C.">
    <Network Type="Cresnet" Id="06"/>
    <Network Type="Ethernet" Id="07">
       <Device Model="TSW-1050" DeviceId="03"/>
