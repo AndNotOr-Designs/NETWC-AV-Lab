@@ -2585,6 +2585,7 @@ RelStat=Release
 ProdLine=Smart Graphics
 DbH=3
 EtH=2
+VtpH=2
 ]
 [
 ObjTp=Dv
@@ -3108,10 +3109,21 @@ H=1
 DvH=715
 GuiExtType=1
 VtpGuid=A4BADB3C-F7C6-48AE-9FA2-A0F11FF9A75C
-VTPFile=.\AV Lab Panel.vtp
-SGDFile=.\AV Lab Panel.sgd
+VTPFile=.\AV Lab Panel-xPanel.vtp
+SGDFile=.\AV Lab Panel-xPanel.sgd
 VtpVer=3
 TSAddr=03
+]
+[
+ObjTp=VTP
+H=2
+DvH=718
+GuiExtType=1
+VtpGuid=A4BADB3C-F7C6-48AE-9FA2-A0F11FF9A75C
+VTPFile=.\AV Lab Panel-xPanel.vtp
+SGDFile=.\AV Lab Panel-xPanel.sgd
+VtpVer=3
+TSAddr=04
 ]
 [
 ObjTp=Sm
@@ -4305,7 +4317,7 @@ mO=1
 tO=1
 O1=76
 mP=1
-P1=Version 1.3
+P1=Version 1.4
 ]
 [
 ObjTp=Sm
@@ -4325,7 +4337,7 @@ mO=1
 tO=1
 O1=77
 mP=1
-P1=07/22/2022
+P1=08/03/2022
 ]
 [
 ObjTp=Sm
@@ -5166,7 +5178,7 @@ tO=5
 ObjTp=Sm
 H=95
 SmC=2942
-Nm=AV Lab Panel_main_displayPower.ced
+Nm=AV Lab Panel-xPanel_main_displayPower.ced
 ObjVer=1
 PrH=93
 CF=2
@@ -5188,7 +5200,7 @@ CedH=1
 ObjTp=Sm
 H=96
 SmC=2942
-Nm=AV Lab Panel_main_displayInput.ced
+Nm=AV Lab Panel-xPanel_main_displayInput.ced
 ObjVer=1
 PrH=93
 CF=2
@@ -5210,7 +5222,7 @@ CedH=4
 ObjTp=Sm
 H=97
 SmC=2942
-Nm=AV Lab Panel_main_sourceSelectInput1.ced
+Nm=AV Lab Panel-xPanel_main_sourceSelectInput1.ced
 ObjVer=1
 PrH=93
 CF=2
@@ -5234,7 +5246,7 @@ CedH=2
 ObjTp=Sm
 H=98
 SmC=2942
-Nm=AV Lab Panel_main_sourceSelectInput2.ced
+Nm=AV Lab Panel-xPanel_main_sourceSelectInput2.ced
 ObjVer=1
 PrH=93
 CF=2
@@ -5258,7 +5270,7 @@ CedH=3
 ObjTp=Sm
 H=99
 SmC=2942
-Nm=AV Lab Panel_main_programVolume.ced
+Nm=AV Lab Panel-xPanel_main_programVolume.ced
 ObjVer=1
 PrH=93
 CF=2
@@ -5290,9 +5302,28 @@ n1I=32
 n2I=32
 n1O=32
 Cmn1=XPanel 2.0 Smart Graphics
+mC=5
+C1=110
+C2=111
+C3=112
+C4=113
+C5=114
 mI=96
+I1=65
+I2=67
+I3=66
+I6=48
+I35=49
+I65=76
+I66=77
 mO=64
 tO=96
+O1=57
+O6=46
+O7=67
+O8=55
+O9=56
+O35=50
 mP=1
 P1=255d
 ]
@@ -5507,6 +5538,120 @@ O3=72
 O4=72
 ]
 [
+ObjTp=Sm
+H=110
+SmC=2942
+Nm=AV Lab Panel-xPanel_main_displayPower.ced
+ObjVer=1
+PrH=100
+CF=2
+n1I=4
+n1O=4
+Cmn1=v1
+mI=4
+I2=6
+I4=7
+mO=4
+tO=4
+O1=4
+O3=5
+mP=1
+P1=1d
+CedH=6
+]
+[
+ObjTp=Sm
+H=111
+SmC=2942
+Nm=AV Lab Panel-xPanel_main_sourceSelectInput1.ced
+ObjVer=1
+PrH=100
+CF=2
+n1I=6
+n1O=6
+Cmn1=v1
+mI=6
+I2=19
+I4=20
+I6=21
+mO=6
+tO=6
+O1=16
+O3=17
+O5=18
+mP=1
+P1=3d
+CedH=7
+]
+[
+ObjTp=Sm
+H=112
+SmC=2942
+Nm=AV Lab Panel-xPanel_main_sourceSelectInput2.ced
+ObjVer=1
+PrH=100
+CF=2
+n1I=6
+n1O=6
+Cmn1=v1
+mI=6
+I2=27
+I4=28
+I6=29
+mO=6
+tO=6
+O1=30
+O3=31
+O5=32
+mP=1
+P1=4d
+CedH=8
+]
+[
+ObjTp=Sm
+H=113
+SmC=2942
+Nm=AV Lab Panel-xPanel_main_programVolume.ced
+ObjVer=1
+PrH=100
+CF=2
+n1I=6
+n1O=6
+Cmn1=v1
+mI=6
+I4=47
+mO=6
+tO=6
+O1=43
+O3=44
+O5=45
+mP=1
+P1=5d
+CedH=9
+]
+[
+ObjTp=Sm
+H=114
+SmC=2942
+Nm=AV Lab Panel-xPanel_main_displayInput.ced
+ObjVer=1
+PrH=100
+CF=2
+n1I=4
+n1O=4
+Cmn1=v1
+mI=4
+I2=12
+I4=13
+mO=4
+tO=4
+O1=10
+O3=11
+mP=1
+P1=2d
+CedH=10
+]
+[
 ObjTp=CED
 H=1
 SmH=95
@@ -5560,6 +5705,61 @@ GUID=0F67ED00-BD89-404A-8970-EE5E478B1795
 Hint=programVolume (Smart Object ID=5)
 SGControlType=Vertical Tab Button
 SGControlName=programVolume
+]
+[
+ObjTp=CED
+H=6
+SmH=110
+CedVer=1
+CedMod=
+GUID=7767436B-DD7A-4ECD-B48F-9B1495723F27
+Hint=displayPower (Smart Object ID=1)
+SGControlType=Vertical Tab Button
+SGControlName=displayPower
+]
+[
+ObjTp=CED
+H=7
+SmH=111
+CedVer=1
+CedMod=
+GUID=217D6036-A460-438A-8DF7-CDD1958512C6
+Hint=sourceSelectInput1 (Smart Object ID=3)
+SGControlType=Vertical Tab Button
+SGControlName=sourceSelectInput1
+]
+[
+ObjTp=CED
+H=8
+SmH=112
+CedVer=1
+CedMod=
+GUID=D3CCC184-FD08-4E00-BA14-D79589648E69
+Hint=sourceSelectInput2 (Smart Object ID=4)
+SGControlType=Vertical Tab Button
+SGControlName=sourceSelectInput2
+]
+[
+ObjTp=CED
+H=9
+SmH=113
+CedVer=1
+CedMod=
+GUID=0F67ED00-BD89-404A-8970-EE5E478B1795
+Hint=programVolume (Smart Object ID=5)
+SGControlType=Vertical Tab Button
+SGControlName=programVolume
+]
+[
+ObjTp=CED
+H=10
+SmH=114
+CedVer=1
+CedMod=
+GUID=AC997393-6BFE-4331-8C6B-6E7CE93E5C7D
+Hint=displayInput (Smart Object ID=2)
+SGControlType=Vertical Tab Button
+SGControlName=displayInput
 ]
 [
 ObjTp=Sg
